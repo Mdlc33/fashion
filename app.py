@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Cargar el modelo 
-model = load_model('fashion_mnist.keras')
+model = load_model('fashion_mnist_2.keras')
 
 # Crear interfaz de usuario
 st.title('Clasificador de ropa')
