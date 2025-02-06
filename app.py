@@ -1,5 +1,5 @@
 # Cargar el modelo 
-model = load_model('/content/drive/MyDrive/Colab Notebooks/Redes Neuronales/models/fashion_mnist.keras')
+model = load_model('fashion_mnist.keras')
 
 
 # Crear intefaz de usuario
