@@ -1,3 +1,8 @@
+
+import streamlit as st
+from tensorflow.keras.models import load_model
+from PIL import Image
+import numpy as np
 # Cargar el modelo 
 model = load_model('fashion_mnist.keras')
 
