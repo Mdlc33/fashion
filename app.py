@@ -41,5 +41,5 @@ if uploaded_file is not None:
   for i, prob in enumerate(prediction[0]):
         st.write(f"{classes[i]}: {prob:.2%}")
 
-    # Clase con mayor probabilidad
-   st.write("Predicción:", classes[np.argmax(prediction)])
+  # Clase con mayor probabilidad
+  st.write("Predicción:", classes[np.argmax(prediction)])
